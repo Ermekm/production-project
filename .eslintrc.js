@@ -5,7 +5,8 @@ module.exports = {
     },
     extends: [
         'plugin:react/jsx-runtime',
-        'standard-with-typescript'
+        'standard-with-typescript',
+        'plugin:i18next/recommended'
     ],
     overrides: [
     ],
@@ -15,11 +16,13 @@ module.exports = {
         project: ['./tsconfig.json']
     },
     plugins: [
-        'react'
+        'react',
+        'i18next'
     ],
     rules: {
         indent: 'off',
-        '@typescript-eslint/indent': [2, 4]
+        '@typescript-eslint/indent': [2, 4],
+        'i18next/no-literal-string': ['error', { markupOnly: true }]
     },
     globals: {
         IS_DEV: true
