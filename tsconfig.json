@@ -8,12 +8,18 @@
         "allowJs": true,
         "moduleResolution": "node",
         "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./src/*"
+            ]
+        },
         "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true
     },
     "ts-node": {
         "compilerOptions": {
-            "module": "CommonJS"
+            "module": "CommonJS",
         }
     }
 }
