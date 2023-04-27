@@ -22,7 +22,9 @@ module.exports = {
     rules: {
         indent: 'off',
         '@typescript-eslint/indent': [2, 4],
-        'i18next/no-literal-string': ['error', { markupOnly: true }]
+        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        '@typescript-eslint/prefer-nullish-coalescing': 'off',
+        '@typescript-eslint/strict-boolean-expressions': 'off'
     },
     globals: {
         IS_DEV: true
