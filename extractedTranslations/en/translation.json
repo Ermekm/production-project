@@ -1,11 +1,10 @@
 {
-  "Page is not f ound": "Page is not f ound",
-  "Page is not found": "Page is not found",
-  "Page is not дфтп": "Page is not дфтп",
-  "Reloade page": "Reloade page",
-  "Reloader page": "Reloader page",
-  "Something went wrong": "Something went wrong",
-  "about site": "about site",
-  "lang": "lang",
-  "main page": "main page"
+  "throw error": "throw error",
+  "Главная страница": "Главная страница",
+  "О сайте": "О сайте",
+  "О сайте123123": "О сайте123123",
+  "Обновить страницу": "Обновить страницу",
+  "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
+  "Страница не найдена": "Страница не найдена",
+  "Язык": "Язык"
 }
