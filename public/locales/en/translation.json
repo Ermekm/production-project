@@ -2,7 +2,6 @@
   "Тестовый пример": "Test example",
   "Перевод": "Translate",
   "Главная страница": "Main page",
-  "Язык": "English",
   "новый перевод": "новый перевод",
   "Страница не найдена": "Page not found",
   "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
@@ -10,5 +9,7 @@
   "throw error": "throw error",
   "Главная": "Main",
   "О сайте": "About us",
-  "Toggle": "Toggle"
+  "Toggle": "Toggle",
+  "lang": "English",
+  "lang short": "En"
 }
