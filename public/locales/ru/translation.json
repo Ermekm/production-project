@@ -13,5 +13,8 @@
   "Toggle": "Переключить",
   "lang": "Русский",
   "lang short": "Ру",
-  "Sign in": "Войти"
+  "Sign in": "Войти",
+  "increment": "увеличить",
+  "decrement": "уменьшить",
+  "value": "значение"
 }

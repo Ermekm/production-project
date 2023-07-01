@@ -12,5 +12,8 @@
   "Toggle": "Toggle",
   "lang": "English",
   "lang short": "En",
-  "Sign in": "Sign in"
+  "Sign in": "Sign in",
+  "increment": "increment",
+  "decrement": "decrement",
+  "value": "value"
 }

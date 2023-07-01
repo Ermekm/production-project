@@ -1,4 +1,5 @@
 /* eslint-disable i18next/no-literal-string */
+import { t } from 'i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCounterValue } from '../model/selector/getCounterValue/getCounterValue';
 import { counterActions } from '../model/slice/counterSlice';
@@ -14,13 +15,26 @@ export const Counter = () => {
     };
     return (
         <div>
-            <h1>
-                value:
+            <h1 data-testid="value-title">
+                {t('value')}
+                :
                 {' '}
                 {counterValue}
             </h1>
-            <button onClick={increment} type="button">increment</button>
-            <button onClick={decrement} type="button">decrement</button>
+            <button
+                data-testid="increment-btn"
+                onClick={increment}
+                type="button"
+            >
+                {t('increment')}
+            </button>
+            <button
+                data-testid="decrement-btn"
+                onClick={decrement}
+                type="button"
+            >
+                {t('decrement')}
+            </button>
         </div>
     );
 };
